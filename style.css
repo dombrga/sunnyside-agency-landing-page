@@ -193,7 +193,7 @@ span.a-border {
   font-family: 'Fraunces', serif;
   font-size: .8rem;
 
-  background-color: yellow;
+  background-color: rgb(247, 247, 6);
   border-radius: 10rem;
   /* padding-top: ; */
   padding: .9rem 1.5rem;
@@ -306,7 +306,9 @@ main {
 
 .testimonial-wrapper .name { margin-bottom: 10px; }
 
-.two-image-wrapper img { width: 50%; }
+
+
+.two-image-wrapper > img { width: 50%; }
 
 img.float-left { float: left; }
 img.second { float: right; }
@@ -361,9 +363,7 @@ path:hover, .svgi {
   fill: white;
 }
 
-
-
-@media (min-width: 800px) {
+@media (min-width:800px) {
   /* typography */
   .img-text h2 {
     font-size: 1.4rem;
@@ -403,11 +403,11 @@ path:hover, .svgi {
     text-align: left;
     justify-content: center;
     align-items: flex-start;
-    padding: 90px 25px;
+    padding: 70px 30px;
   }
 
   .img-text {
-    width: 60%;
+    width: 80%;
     padding: 0;
   }
 
@@ -462,5 +462,16 @@ path:hover, .svgi {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  .gallery {
+    display: flex;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .text-wrapper {
+    padding: 70px 120px;
   }
 }

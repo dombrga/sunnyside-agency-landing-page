@@ -42,7 +42,7 @@ function offMenu() {
 }
 
 function changeImg() {
-  if(window.innerWidth < 800) {
+  if(window.innerWidth < 900) {
     headerimg.src = urls.headerimg.mobile
     egg.src = urls.egg.mobile
     standout.src = urls.standout.mobile
