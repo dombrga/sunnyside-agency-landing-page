@@ -4,7 +4,7 @@ const menu = document.querySelector('.header-link-wrapper')
 
 burger.addEventListener('click', showMenu)
 function showMenu() {
-  menu.style.display = menu.style.display ? '':'flex'
+  menu.style.display = menu.style.display ? '' : 'flex'
 }
 
 
@@ -65,4 +65,4 @@ function changeImg() {
   }
 }
 
-
+document.addEventListener('DOMContentLoaded', changeImg, false);

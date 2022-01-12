@@ -296,7 +296,8 @@ main {
 
 .img-wrapper-testimonial > img {
   display: inline-block;
-  width: 30%;
+  /* width: 30%; */
+  width: 5rem;
 
   border-radius: 50%;
 }
@@ -395,8 +396,6 @@ path:hover, .svgi {
 
   .wrapper img {
     width: 50%;
-    object-fit: scale-down;
-    /* height: 100%; */
   }
   
   .text-wrapper {
@@ -437,7 +436,7 @@ path:hover, .svgi {
   .testimonials {
     display: flex;
     justify-content: space-between;
-    /* column-gap: 80px; */
+    column-gap: 20px;
 
   }
 
