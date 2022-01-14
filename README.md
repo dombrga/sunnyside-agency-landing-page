@@ -51,6 +51,7 @@ Use this section to recap over some of your major learnings while working throug
 
 - Being more semantic in using HTML elements.
 - I will do better next time when it comes to assignning CSS classes. Should be clean and reusable.
+- Will be more careful in using position absolute.
 
 
 ## Author
